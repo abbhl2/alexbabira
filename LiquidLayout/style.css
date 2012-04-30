@@ -1,0 +1,237 @@
+div.header {
+    background: #dc5c05;
+	margin:0 auto 10px;
+	overflow: hidden;
+}
+
+#titleDiv {
+    
+	float:left;
+	width: 60%;
+	
+}
+
+#searchArea{
+	width: 35%;
+	float:right;
+	padding-right: 5%;	
+	padding-top: 3%;		
+}
+
+div {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+
+h1 
+{ 
+	font-size: 180%; 
+	font-weight: bold; 
+	text-align: left; 
+	font-style:italic;
+	padding-left: 2%;
+	color:white;
+}
+
+
+
+
+#content-wrapper {
+	width: 93%;
+	background: grey;
+	padding: 10px;
+	position:relative;
+	margin:0 auto 10px;
+	overflow: hidden; 
+}
+
+#content {
+	width: 80%;	
+	background: #ffac00;
+	border: 1px solid red;
+	padding: 2px;	
+}
+
+#searchbutton{
+	border-right: #666666 1px solid; 
+	border-top: #666666 1px solid; 
+	font-size: 16px; 
+	border-left: #666666 1px solid; 
+	border-bottom: #666666 1px solid;  
+	float:right;	
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background: #ffb76b; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffb76b 0%, #ff7c00 39%, #ffa73d 50%, #ff7f04 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(39%,#ff7c00), color-stop(50%,#ffa73d), color-stop(100%,#ff7f04)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffb76b 0%,#ff7c00 39%,#ffa73d 50%,#ff7f04 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffb76b 0%,#ff7c00 39%,#ffa73d 50%,#ff7f04 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffb76b 0%,#ff7c00 39%,#ffa73d 50%,#ff7f04 100%); /* IE10+ */
+	background: linear-gradient(top, #ffb76b 0%,#ff7c00 39%,#ffa73d 50%,#ff7f04 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */	
+}
+
+
+#search{
+	float:right;	
+}
+
+#content-wrapper {
+
+
+	width: 98%;
+	
+	background: #ffac00;
+	border: 1px solid red;
+	padding: 2px;	
+}
+
+
+
+
+
+nav {
+	display:block; 
+	margin:0 auto 10px; 
+	border:1px solid #222; 
+	position:relative; 
+	background-color:#6ec5b8; 
+	font:16px Tahoma, Sans-serif;  
+	width :95%;
+}  
+nav ul { 
+	padding:0; 
+	margin:0; 
+}
+  
+nav li { 
+	position:relative; 
+	float:left; 
+	list-style-type:none; 
+}
+  
+nav ul:after { 
+	content:"."; 
+	display:block; 
+	height:0; 
+	clear:both; 
+	visibility:hidden; 
+}
+	
+nav li a { 
+	display:block; 
+	padding:10px 20px; 
+	border-left:1px solid #999; 
+	border-right:1px solid #222; 
+	color:#eee; 
+	text-decoration:none; 
+}  
+nav li a:focus { outline:none; text-decoration:underline; }  
+nav li:first-child a { border-left:none; }  
+nav li.last a { border-right:none; }  
+nav a span { display:block; float:rightright; margin-left:5px; }  
+nav ul ul { display:none; width:100%; position:absolute; left:0; background:#6a6a6a; }  
+nav ul ul li { float:none; }  
+nav ul ul a { padding:5px 10px; border-left:none; border-right:none; font-size:14px; }  
+nav ul ul a:hover { background-color:#555; }
+
+
+.borderradius nav { -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; }  
+.cssgradients nav { 
+
+background: rgb(128,237,217); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(128,237,217,1) 18%, rgba(110,197,184,1) 42%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(18%,rgba(128,237,217,1)), color-stop(42%,rgba(110,197,184,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(128,237,217,1) 18%,rgba(110,197,184,1) 42%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(128,237,217,1) 18%,rgba(110,197,184,1) 42%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(128,237,217,1) 18%,rgba(110,197,184,1) 42%); /* IE10+ */
+background: linear-gradient(top, rgba(128,237,217,1) 18%,rgba(110,197,184,1) 42%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80edd9', endColorstr='#6ec5b8',GradientType=0 ); /* IE6-9 */
+
+ }  
+.boxshadow.rgba nav { -moz-box-shadow:2px 2px 2px rgba(110, 197, 184,.75); -webkit-box-shadow:2px 2px 2px rgba(110, 197, 184,.75); box-shadow:2px 2px 2px rgba(110, 197, 184,.75); } 
+ 
+.cssgradients nav li:hover { 
+//background-image:-moz-linear-gradient(0% 100px 90deg, #999, #222); 
+//background-image:-webkit-gradient(linear, 100% 23%, 45% 100%, from(#222), to(#555)); 
+//background-color:	#6db9af;
+background: rgb(110,197,184); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(110,197,184,1) 15%, rgba(97,173,154,1) 93%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(15%,rgba(110,197,184,1)), color-stop(93%,rgba(97,173,154,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(110,197,184,1) 15%,rgba(97,173,154,1) 93%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(110,197,184,1) 15%,rgba(97,173,154,1) 93%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(110,197,184,1) 15%,rgba(97,173,154,1) 93%); /* IE10+ */
+background: radial-gradient(center, ellipse cover, rgba(110,197,184,1) 15%,rgba(97,173,154,1) 93%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ec5b8', endColorstr='#61ad9a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}  
+
+ 
+
+ p
+ {
+ padding-left : 2%;
+ }
+ 
+
+
+ 
+#container1 {
+    display: table;
+	width:80.5%;
+		padding: 2px;	
+		margin-top:20px;
+ } 
+
+#spacer1{
+display: table-cell;
+width: 2%;
+}
+
+
+#spacer2{
+display: table-cell;
+width: 2%;
+}
+ 
+#col1 {
+ display: table-cell;
+   
+   background:#978b7d;
+  
+ 
+  padding: 2px;
+}
+#col2 {
+	display: table-cell;
+	background:#c7baa7;
+	padding: 2px;
+}
+#col3 {
+	display: table-cell;
+	background:#978b7d;
+	padding: 2px;
+}
+
+#sidebar {
+	
+	float:right;
+	width: 15%;	
+	background: #ff9000;
+	padding-right:2%;
+	padding-left:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+
+	
+}
+
+#footer 
+{
+	clear:both;
+    background: silver;
+}
